@@ -1,0 +1,15 @@
+.places__item:not(:first-of-type) {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .places__item:not(:first-of-type) {
+    margin-top: 73px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places__item:not(:first-of-type) {
+    margin-top: 80px;
+  }
+}

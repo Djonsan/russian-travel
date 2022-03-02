@@ -1,0 +1,40 @@
+.photo-grid__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .photo-grid__list {
+    display: grid;
+    gap: 16px;
+    grid-template-areas:
+    "a a"
+    "a a"
+    "a a"
+    "a a"
+    "a a"
+    "a a";
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photo-grid__list {
+    gap: 14px;
+    grid-template-areas:
+    "a a a"
+    "a a a"
+    "a a a"
+    "a a a";
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-grid__list {
+    gap: 16px;
+    grid-template-areas:
+    "a a a a"
+    "a a a a"
+    "a a a a";
+  }
+}

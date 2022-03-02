@@ -1,0 +1,22 @@
+.laed {
+  text-align: center;
+  padding: 0 0 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .laed {
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .laed {
+    padding: 0 48px 92px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .laed {
+    padding: 0 148px 92px;
+  }
+}
